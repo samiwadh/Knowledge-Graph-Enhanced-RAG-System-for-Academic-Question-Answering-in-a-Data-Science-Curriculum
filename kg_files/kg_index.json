@@ -1,0 +1,25 @@
+{
+  "Classification": {
+    "course": "Machine Learning",
+    "related": [
+      "Decision Trees",
+      "SVM",
+      "Overfitting"
+    ]
+  },
+  "RDF": {
+    "course": "Data Semantics",
+    "related": [
+      "SPARQL",
+      "OWL",
+      "Knowledge Graphs"
+    ]
+  },
+  "NoSQL": {
+    "course": "Data Management",
+    "related": [
+      "MongoDB",
+      "Data Lake"
+    ]
+  }
+}

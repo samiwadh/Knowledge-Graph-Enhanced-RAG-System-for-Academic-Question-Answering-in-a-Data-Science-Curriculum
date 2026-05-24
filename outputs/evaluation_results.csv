@@ -1,5 +1,5 @@
 question_id,question,expected_course,kg_used,answer_baseline,answer_kg,score_baseline,score_kg,notes
-1,What is overfitting and how can it be prevented?,Machine Learning,None,"Based on the provided lecture content and knowledge graph context, overfitting can be described as a situation where a machine learning model is too closely fit to the training data, making it perform well on that specific dataset but poorly on new, unseen data.
+1,What is overfitting and how can it be prevented?,Machine Learning,,"Based on the provided lecture content and knowledge graph context, overfitting can be described as a situation where a machine learning model is too closely fit to the training data, making it perform well on that specific dataset but poorly on new, unseen data.
 
 According to Course: Machine Learning | File: Machine Learning - [2] Classification - 03 - Performance Evaluation - part I - 0 (1).pdf [Source 3], overfitting occurs when a model is too complex and has memorized the training data rather than learning general patterns. This can be seen in the example where the blue line classification model achieves a better Training Error but estimates the Generalization Error by wrongly labeling 4 records.
 
@@ -23,8 +23,8 @@ These techniques are covered in the Machine Learning course (File: Machine Learn
 
 From a Data Management perspective, it is crucial to detect outliers and handle them properly to prevent overfitting. This can be done through various methods such as imputation, transformation, winsorizing, or data partitioning, as described in the Course: Data Management | File: 9. Data preparation.pdf.
 
-In summary, overfitting occurs when a model is too complex and fails to generalize well to new data. It can be prevented by using regularization, early stopping, data augmentation, feature engineering, and detecting/outlier handling techniques from the Data Management course.",,,
-2,Explain how a decision tree works.,Machine Learning,None,"A decision tree works by recursively partitioning the data into subsets based on a set of attributes, until each subset contains only instances of a single class. The process starts at the root node and proceeds to the leaf nodes.
+In summary, overfitting occurs when a model is too complex and fails to generalize well to new data. It can be prevented by using regularization, early stopping, data augmentation, feature engineering, and detecting/outlier handling techniques from the Data Management course.",3,4,
+2,Explain how a decision tree works.,Machine Learning,,"A decision tree works by recursively partitioning the data into subsets based on a set of attributes, until each subset contains only instances of a single class. The process starts at the root node and proceeds to the leaf nodes.
 
 Here's a step-by-step explanation:
 
@@ -53,8 +53,8 @@ The decision tree can be used for both categorical and numeric attributes, and d
 Courses that cover this topic:
 
 * Machine Learning (file: 02-SupervisedLearning.pdf)
-* Classification Techniques - part I (file: Machine Learning - [2] Classification - 02 - Classification Techniques - part I - 0 (1).pdf)",,,
-3,What is cross-validation?,Machine Learning,None,"According to the provided lecture content, cross-validation is a method for evaluating the performance of a classification algorithm by partitioning the dataset into K subsets (folds) and using each fold as a test set in turn while training on the remaining folds. The average accuracy across all K iterations provides a more reliable estimate of the classifier's accuracy.
+* Classification Techniques - part I (file: Machine Learning - [2] Classification - 02 - Classification Techniques - part I - 0 (1).pdf)",3,4,
+3,What is cross-validation?,Machine Learning,,"According to the provided lecture content, cross-validation is a method for evaluating the performance of a classification algorithm by partitioning the dataset into K subsets (folds) and using each fold as a test set in turn while training on the remaining folds. The average accuracy across all K iterations provides a more reliable estimate of the classifier's accuracy.
 
 As mentioned in [Source 1], the course ""Machine Learning"" covers this topic, specifically in the file ""Machine Learning - [2] Classification - 03 - Performance Evaluation - part II - 0 (2).pdf"".
 
@@ -84,8 +84,8 @@ Relevant lecture files:
 * DM-4-evaluatingclassifiersnew.pdf
 * Train-Validation-Test.pdf
 * Machine Learning - [2] Classification - 03 - Performance Evaluation - part II - 0 (2).pdf
-* 03-ClassifierPerformanceEvaluationAndComparison.pdf",,,
-4,What is the class imbalance problem?,Machine Learning,None,"According to the provided course materials, the Class Imbalance Problem refers to a situation where one class (typically the minority or rare class) has a significantly smaller number of instances than the other class (the majority class). This can lead to difficulties in developing a classification model that accurately predicts the minority class.
+* 03-ClassifierPerformanceEvaluationAndComparison.pdf",3,4,
+4,What is the class imbalance problem?,Machine Learning,,"According to the provided course materials, the Class Imbalance Problem refers to a situation where one class (typically the minority or rare class) has a significantly smaller number of instances than the other class (the majority class). This can lead to difficulties in developing a classification model that accurately predicts the minority class.
 
 In the context of binary classification, the rare class is often denoted as the positive class, while the majority class is denoted as the negative class. The Accuracy measure, which treats all classes equally, may not be suitable for analyzing imbalanced data sets.
 
@@ -99,8 +99,8 @@ In particular, the course highlights the challenges of building a classifier tha
 
 The provided resources also mention the use of performance metrics such as precision and recall, false positive rate and false negative rate, F-measure, and weighted accuracy to evaluate the performance of classifiers in imbalanced datasets.
 
-Therefore, I conclude that the Class Imbalance Problem is a common issue in machine learning where one class has a significantly larger number of instances than the other classes, leading to biased models and requiring specialized techniques for addressing this problem.",,,
-5,How does k-means clustering work?,Machine Learning,None,"According to the provided lecture notes and PDF files, K-MEANS clustering is a type of prototype-based clustering algorithm that defines a prototype in terms of a centroid, which is usually the mean of the attribute's values for a group of objects (records). The algorithm works as follows:
+Therefore, I conclude that the Class Imbalance Problem is a common issue in machine learning where one class has a significantly larger number of instances than the other classes, leading to biased models and requiring specialized techniques for addressing this problem.",3,4,
+5,How does k-means clustering work?,Machine Learning,,"According to the provided lecture notes and PDF files, K-MEANS clustering is a type of prototype-based clustering algorithm that defines a prototype in terms of a centroid, which is usually the mean of the attribute's values for a group of objects (records). The algorithm works as follows:
 
 1. Select K objects (records) as centroids.
 2. Repeat:
@@ -122,8 +122,8 @@ According to the provided lecture content and Knowledge Graph context, the K-Mea
 
 This algorithm is a type of prototype-based clustering, where a cluster is defined by its centroid, which is typically the mean of the attribute's values for a group of objects (records).
 
-The K-Means algorithm is covered in the Machine Learning course, specifically in the [3] Clustering - 03 - Clustering Algorithms - part I file.",,,
-6,What is feature selection?,Machine Learning,None,"Feature selection is a process of selecting the most relevant features from a dataset to be used in modeling or analysis, while removing irrelevant and redundant ones. This technique aims to reduce the dimensionality of the data by identifying the most informative features that are highly correlated with the target variable.
+The K-Means algorithm is covered in the Machine Learning course, specifically in the [3] Clustering - 03 - Clustering Algorithms - part I file.",3,4,
+6,What is feature selection?,Machine Learning,,"Feature selection is a process of selecting the most relevant features from a dataset to be used in modeling or analysis, while removing irrelevant and redundant ones. This technique aims to reduce the dimensionality of the data by identifying the most informative features that are highly correlated with the target variable.
 
 According to [Source 1: Data Management, File: 9. Data preparation.pdf], there are three different research approaches to feature selection:
 
@@ -149,8 +149,8 @@ These approaches can be used to select features that are highly informative and 
 
 In addition, the course ""Machine Learning"" covers feature subset selection techniques in chap2_data.pdf (Source 4). These techniques include brute-force approach, embedded approaches, filter approaches, and wrapper approaches. The main goal of these techniques is to identify a subset of features that are most relevant for the data mining task at hand.
 
-In summary, feature selection is an important process in data science that helps select a subset of features from a larger set that are most relevant for a specific task or problem.",,,
-7,Explain the Apriori algorithm.,Machine Learning,None,"Based on the provided lecture notes, the Apriori algorithm is an effective way to reduce the number of candidate itemsets in frequent itemset generation without counting their support values. This approach helps eliminate some of the candidate itemsets, reducing the computational cost of frequent itemset generation.
+In summary, feature selection is an important process in data science that helps select a subset of features from a larger set that are most relevant for a specific task or problem.",3,4,
+7,Explain the Apriori algorithm.,Machine Learning,,"Based on the provided lecture notes, the Apriori algorithm is an effective way to reduce the number of candidate itemsets in frequent itemset generation without counting their support values. This approach helps eliminate some of the candidate itemsets, reducing the computational cost of frequent itemset generation.
 
 As stated in [Source 1], Course: Machine Learning | File: Machine Learning - [4] Association Analysis - 02 - Frequent Itemset Generation and Rule Generation - part I - 0.pdf:
 
@@ -170,7 +170,7 @@ To be more specific, the Apriori algorithm works as follows:
 
 This algorithm ensures that any generated itemset is at least as infrequent as the minimum support threshold specified by the user. The Apriori principle is used in many association rule mining algorithms, including the famous Apriori algorithm for generating frequent itemsets and association rules.
 
-The course that covers this topic is Machine Learning [4] Association Analysis.",,,
+The course that covers this topic is Machine Learning [4] Association Analysis.",3,4,
 8,What is NoSQL and why is it used?,Data Management,"NoSQL (Course: Data Management) - Related: MongoDB, Data Lake","Based on the provided lecture content, NoSQL (Not only SQL) is a set of data models and related software that allows for schema-free or schemaless storage and querying of data [Source 2]. This means that NoSQL databases do not require a predefined model or schema before storing data, unlike relational databases. Instead, the data itself defines the schema, allowing for more flexibility and adaptability to changing requirements.
 
 NoSQL is used when traditional relational databases are insufficient or impractical for certain types of data or applications. It provides an alternative to the relational model, which can be restrictive and inflexible [Source 3]. NoSQL databases often sacrifice some of the consistency and ACID properties (Atomicity, Consistency, Isolation, Durability) that relational databases provide in order to achieve higher scalability, performance, and flexibility.
@@ -191,8 +191,8 @@ NoSQL databases are designed to handle large amounts of unstructured or semi-str
 
 In the context of graph databases, NoSQL refers to a set of data models that support storing and querying graph structures, such as nodes and edges. This is relevant to Course: Data Management | File: 5 Graphdb.pdf, which covers graph databases and their properties.
 
-Overall, NoSQL is used to provide an alternative to traditional relational databases for handling complex and dynamic data models, particularly in domains where data relationships are crucial, such as social networks, bibliographical citations, or biological interactions.",,,
-9,What is a data warehouse?,Data Management,None,"According to the provided lecture notes from Course: Data Management | File: 6. Intro DW.pdf, a data warehouse is defined as:
+Overall, NoSQL is used to provide an alternative to traditional relational databases for handling complex and dynamic data models, particularly in domains where data relationships are crucial, such as social networks, bibliographical citations, or biological interactions.",3,4,
+9,What is a data warehouse?,Data Management,,"According to the provided lecture notes from Course: Data Management | File: 6. Intro DW.pdf, a data warehouse is defined as:
 
 ""A base for Business intelligence DATA WAREHOUSE 1 2 Definition 1 Architectures 2 DFM 3 Star schema 4 Slow changing dimension""
 
@@ -214,8 +214,8 @@ No specific mention of data warehouses is found in [Source 3] Course: Data Manag
 
 [Source 5] Course: Data Management | File: 6. Intro DW.pdf discusses the contrast between data warehousing philosophy and data marts, as well as the advantages and disadvantages of using a star schema versus snowflake schema in designing a DW.
 
-Course coverage: This topic is covered in the ""Data Management"" course, specifically in files related to data warehousing (File: 6. Intro DW.pdf).",,,
-10,What is data quality?,Data Management,None,"Based on the provided lecture notes and files, data quality refers to the degree of conformity of data with its intended use or the requirements imposed upon it. It is a critical aspect of data management as poor-quality data can lead to inaccurate conclusions, misinformed decisions, and even financial losses.
+Course coverage: This topic is covered in the ""Data Management"" course, specifically in files related to data warehousing (File: 6. Intro DW.pdf).",3,4,
+10,What is data quality?,Data Management,,"Based on the provided lecture notes and files, data quality refers to the degree of conformity of data with its intended use or the requirements imposed upon it. It is a critical aspect of data management as poor-quality data can lead to inaccurate conclusions, misinformed decisions, and even financial losses.
 
 According to [Source 2] Course: Machine Learning | File: chap2_data.pdf, data quality problems include:
 
@@ -246,8 +246,8 @@ Additionally, [Source 3] Course: Data Management | File: 8 Data Quality.pdf defi
 
 The course material suggests that data quality can be assessed using both objective and subjective measures. Objective measures involve quantifiable metrics, whereas subjective measures rely on human perception or assessment.
 
-Overall, Data Quality is a crucial aspect of data management, and understanding the different types of data quality problems and their implications is essential for ensuring the reliability and accuracy of data in various domains.",,,
-11,What is a data lake?,Data Management,None,"According to the provided lecture content, a data lake is described as a new architecture that mixes the approaches of data warehouse and data mart, providing a more flexible approach to store and process large amounts of data.
+Overall, Data Quality is a crucial aspect of data management, and understanding the different types of data quality problems and their implications is essential for ensuring the reliability and accuracy of data in various domains.",3,4,
+11,What is a data lake?,Data Management,,"According to the provided lecture content, a data lake is described as a new architecture that mixes the approaches of data warehouse and data mart, providing a more flexible approach to store and process large amounts of data.
 
 In Course: Data Management | File: 9. new hadoop+datalake.pdf (Source 1), it is mentioned that ""A lakehouse is a new architecture that"" and later explained as ""To realize a bottom-up approach there is no need to define the schema of data before to load data"". This suggests that a data lake allows for more flexibility in storing and processing data, without requiring a predefined schema.
 
@@ -264,8 +264,8 @@ In particular, a data lake is described as having the following components:
 * Storage: A distributed file system like Hadoop Distributed File System (HDFS) and NoSQL engine can be used to store large amounts of data.
 * Architecture: The storage layer consists of multiple nodes that work together to store and retrieve data.
 
-No specific information on data lakes is provided in Sources 3, 4, or 5.",,,
-12,What is MongoDB?,Data Management,None,"Based on the provided lecture content, MongoDB is a NoSQL database system that uses a document-based model to store and manage data. According to [Source 1: Course - Data Management | File: 4.1 mongodb.pdf], MongoDB provides a flexible schema, allowing for efficient storage of complex data structures and supporting queries on any field or level.
+No specific information on data lakes is provided in Sources 3, 4, or 5.",3,4,
+12,What is MongoDB?,Data Management,,"Based on the provided lecture content, MongoDB is a NoSQL database system that uses a document-based model to store and manage data. According to [Source 1: Course - Data Management | File: 4.1 mongodb.pdf], MongoDB provides a flexible schema, allowing for efficient storage of complex data structures and supporting queries on any field or level.
 
 In particular, MongoDB is characterized by:
 
@@ -290,8 +290,8 @@ MongoDB's main features include:
 
 According to Course 4.1 (Data Management), MongoDB is an example of a document-based model and a NoSQL system that uses the $or keyword to query documents based on the OR condition.
 
-This topic is covered in Courses 4.1 (Data Management) and 4.0-NoSQL (Data Management).",,,
-13,What is the data lifecycle?,Data Management,None,"Based on the provided lecture notes and knowledge graph context, I can answer your question about what is the data lifecycle.
+This topic is covered in Courses 4.1 (Data Management) and 4.0-NoSQL (Data Management).",3,4,
+13,What is the data lifecycle?,Data Management,,"Based on the provided lecture notes and knowledge graph context, I can answer your question about what is the data lifecycle.
 
 The data lifecycle refers to the process of managing data from its creation to its eventual destruction or archiving. It typically involves several stages:
 
@@ -320,7 +320,7 @@ Courses that cover this topic:
 * Data Management (1-DataLifeCycle.pdf)
 * Data Management (6. Intro DW.pdf)
 
-Note: While the Knowledge Graph context is empty, it does not directly relate to the concept of data lifecycle.",,,
+Note: While the Knowledge Graph context is empty, it does not directly relate to the concept of data lifecycle.",3,4,
 14,What is RDF and what is it used for?,Data Semantics,"RDF (Course: Data Semantics) - Related: SPARQL, OWL, Knowledge Graphs","Based on the provided lecture content, RDF (Resource Description Framework) is a standard for representing and interchanging structured information about resources on the Web. It is used to create a graph representation of knowledge, where each statement in the form of subject-predicate-object (SPO) is represented as a triple. This allows for the description of Resources on the WEB.
 
 The course ""Data Semantics"" covers this topic, specifically in files such as DS2526 - ESE2.1 - RDF SPARQL Exercises - With Solutions.pdf and DS2526 - 2.5 - SPARQL.pdf.
@@ -345,8 +345,8 @@ The course ""Data Semantics"" covers RDF in detail. Specifically, it's covered i
 
 In these files, you can find explanations of RDF syntax, how to describe resources using RDF, and examples of RDF data representation.
 
-RDF is used for describing data on the web in a way that allows it to be easily shared and reused across different applications and systems. It's often used in combination with other technologies like SPARQL (SPARQL Query Language) to query and manipulate RDF data.",,,
-15,Explain what SPARQL is and give an example query.,Data Semantics,None,"Based on the provided course materials, SPARQL (SPARQL Query Language) is a query language for RDF data that allows users to ask complex questions about their data and retrieve specific information. It is inspired by SQL and supports different entailment regimes.
+RDF is used for describing data on the web in a way that allows it to be easily shared and reused across different applications and systems. It's often used in combination with other technologies like SPARQL (SPARQL Query Language) to query and manipulate RDF data.",3,4,
+15,Explain what SPARQL is and give an example query.,Data Semantics,,"Based on the provided course materials, SPARQL (SPARQL Query Language) is a query language for RDF data that allows users to ask complex questions about their data and retrieve specific information. It is inspired by SQL and supports different entailment regimes.
 
 Here's an example query:
 
@@ -378,7 +378,7 @@ WHERE {
 }
 ```
 
-This query is covered in the ""Data Semantics"" course, specifically in the lecture notes titled ""DS2526 - 2.5 - SPARQL.pdf"". The example query demonstrates how to retrieve a list of volcanoes (instances of the `dbo:Volcano` class) using the SPARQL language.",,,
+This query is covered in the ""Data Semantics"" course, specifically in the lecture notes titled ""DS2526 - 2.5 - SPARQL.pdf"". The example query demonstrates how to retrieve a list of volcanoes (instances of the `dbo:Volcano` class) using the SPARQL language.",3,4,
 16,What is OWL and how is it different from RDFS?,Data Semantics,"RDF (Course: Data Semantics) - Related: SPARQL, OWL, Knowledge Graphs","Based on the provided lecture content and Knowledge Graph context, OWL stands for Web Ontology Language, which is a semantic markup language used to represent ontologies in the form of RDF (Resource Description Framework) statements.
 
 OWL is different from RDFS (RDF Schema) in that it provides more ontological constructs and avoids some potential confusion in RDFS. While both OWL and RDFS are used to describe ontologies, OWL is a more expressive language that allows for more complex reasoning and inference capabilities.
@@ -413,8 +413,8 @@ The relevant sections from the course materials are:
 
 [Source 1] Course: Data Semantics | File: DS2526 - 2.7 - OWL - Highlights.pdf
 
-[Source 2] Course: Data Semantics | File: DS2526 - HO.2 - OWL Hands-on - With Solutions COMPLETE.pdf",,,
-17,What is a knowledge graph?,Data Semantics,None,"According to the provided lecture content from Course: Data Semantics, a knowledge graph can be defined as a graph that encodes knowledge by representing entities and their relationships, with nodes typically representing entities or concepts and edges representing the proximity of these entities.
+[Source 2] Course: Data Semantics | File: DS2526 - HO.2 - OWL Hands-on - With Solutions COMPLETE.pdf",3,4,
+17,What is a knowledge graph?,Data Semantics,,"According to the provided lecture content from Course: Data Semantics, a knowledge graph can be defined as a graph that encodes knowledge by representing entities and their relationships, with nodes typically representing entities or concepts and edges representing the proximity of these entities.
 
 In particular, it is mentioned in [Source 1] that knowledge graphs emerged from the Semantic Web community, and various authors used the phrase ""knowledge graph"" in publications stretching back to the 40's, but with unrelated meaning. The first reference to a ""knowledge graph"" of relevance to the modern meaning was in a paper by Schneider (1973) [440].
 
@@ -424,8 +424,8 @@ In summary, a knowledge graph is a graph that encodes knowledge by representing 
 
 In this context, nodes typically represent entities, such as people, places, or things, while edges represent the proximity or connections between these entities. The edges can also be used to encode additional information, such as weights or labels, to provide more context and meaning.
 
-This topic is covered in the Course: Data Semantics | File: 00-survey.pdf",,,
-18,What are word embeddings?,Data Semantics,None,"Based on the provided lecture content and knowledge graph context, word embeddings are vector representations of words generated from a text corpus using a neural network (Source 1: Course Data Semantics | File: DS2526 - 3.2 - Word Embeddings and Word2vec.pdf). These vectors capture semantic relationships between words, such that similar words appear in similar contexts and have similar vectors.
+This topic is covered in the Course: Data Semantics | File: 00-survey.pdf",3,4,
+18,What are word embeddings?,Data Semantics,,"Based on the provided lecture content and knowledge graph context, word embeddings are vector representations of words generated from a text corpus using a neural network (Source 1: Course Data Semantics | File: DS2526 - 3.2 - Word Embeddings and Word2vec.pdf). These vectors capture semantic relationships between words, such that similar words appear in similar contexts and have similar vectors.
 
 The main idea behind word embeddings is to generate vector representations of words that can be used as input features for machine learning algorithms (Source 1: Course Data Semantics | File: DS2526 - 3.2 - Word Embeddings and Word2vec.pdf). The word2vec algorithm, which is a type of neural network-based method, is a popular approach to generating word embeddings.
 
@@ -435,8 +435,8 @@ The course that covers this topic is Data Semantics, specifically the file ""DS2
 
 Word2vec uses two algorithms: Skip-gram and Continuous Bag-of-Words (CBOW). Both algorithms aim to predict the target word given its context or vice versa, using the surrounding words as input. This process allows similar words to appear in similar contexts and have similar vector representations.
 
-The course ""Data Semantics"" covers this topic in more detail, specifically in the files DS2526 - 3.2 - Word Embeddings and Word2vec.pdf and DS2526 - 3.3 - From Word Embeddings to Language Models - The role of context.pdf.",,,
-19,What is Retrieval-Augmented Generation (RAG)?,Data Semantics,None,"Based on the provided course materials, Retrieval-Augmented Generation (RAG) mainly consists of three parts: indexing, retrieval, and generation. Advanced RAG proposes multiple optimization strategies around pre-retrieval and post-retrieval, with a process similar to the Naive RAG, still following a chain-like structure.
+The course ""Data Semantics"" covers this topic in more detail, specifically in the files DS2526 - 3.2 - Word Embeddings and Word2vec.pdf and DS2526 - 3.3 - From Word Embeddings to Language Models - The role of context.pdf.",3,4,
+19,What is Retrieval-Augmented Generation (RAG)?,Data Semantics,,"Based on the provided course materials, Retrieval-Augmented Generation (RAG) mainly consists of three parts: indexing, retrieval, and generation. Advanced RAG proposes multiple optimization strategies around pre-retrieval and post-retrieval, with a process similar to the Naive RAG, still following a chain-like structure.
 
 Additionally, it is mentioned that Typical RAG solutions are based on a vector database that stores for each (piece of) documents related embeddings. The query is then translated into embedding and a vector search is made. This information can be found in [Source 2] Course: Data Management | File: 11 LLM.pdf.
 
@@ -448,8 +448,8 @@ Please let me know if you have any further questions!","According to the provide
 
 In addition, Advanced RAG proposes multiple optimization strategies around pre-retrieval and post-retrieval, which includes methods such as iterative and adaptive retrieval.
 
-This topic is covered in the ""Data Semantics"" course (File: DS2526 - 4.3 - Large Language Models - 2.pdf) and ""Data Management"" course (File: 11 LLM.pdf).",,,
-20,How do large language models relate to knowledge graphs?,Multiple,None,"Large language models can relate to knowledge graphs in several ways:
+This topic is covered in the ""Data Semantics"" course (File: DS2526 - 4.3 - Large Language Models - 2.pdf) and ""Data Management"" course (File: 11 LLM.pdf).",3,4,
+20,How do large language models relate to knowledge graphs?,Multiple,,"Large language models can relate to knowledge graphs in several ways:
 
 1. Representation of multilingual lexical forms: Large language models, such as BabelNet, bring together encyclopedic information from Wikipedia and lexicographic information from dictionaries to create a knowledge graph of multilingual lexical forms (organized into multilingual synsets) [Source 1: Data Semantics | File: 00-survey.pdf].
 2. Entity linking and centrality measures: Given an input text, entity linking and centrality measures can be applied over the knowledge graph to determine relevant Wikipedia categories for the text [Source 2: Data Semantics | File: 00-survey.pdf].
@@ -465,4 +465,4 @@ The topic of large language models and their relation to knowledge graphs is rel
 
 These relationships highlight the potential connections between large language models and knowledge graphs, enabling more effective semantic search, entity disambiguation, and explanation generation.
 
-Note that Course: Data Semantics | File: DS2526 - 1.1 - Intro and Course Organization.pdf also touches upon the topic of data semantics and its connection to knowledge representation, which may be relevant in understanding the relationship between large language models and knowledge graphs.",,,
+Note that Course: Data Semantics | File: DS2526 - 1.1 - Intro and Course Organization.pdf also touches upon the topic of data semantics and its connection to knowledge representation, which may be relevant in understanding the relationship between large language models and knowledge graphs.",3,4,

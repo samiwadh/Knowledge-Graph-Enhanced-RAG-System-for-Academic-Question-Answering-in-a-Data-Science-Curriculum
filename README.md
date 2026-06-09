@@ -53,10 +53,12 @@ A lightweight knowledge graph helps add this missing structure.
 │   ├── evaluation_results.csv
 │   └── evaluation_chart.png
 ├── kg_files/
-│   ├── academic_kg.ttl
 │   └── kg_index.json
+│   
 ├── chroma_db/
-├── notebook.ipynb
+├── KG_RAG_Project.ipynb
+├── KG-RAG Academic QA PPT
+├── KG-RAG Academic QA Report
 └── README.md
 ```
 
@@ -78,11 +80,6 @@ A lightweight knowledge graph helps add this missing structure.
 The evaluation showed that KG-enhanced RAG performed better overall than the baseline system on the curated curriculum questions.  
 The graph was especially helpful for relation-heavy questions, while baseline retrieval remained effective for direct factual questions.
 
-## Responsible AI
-
-Generative AI tools were used only for writing support, clarification, and editing assistance.  
-All project design, implementation, evaluation, and final interpretation were reviewed and completed by the author.  
-A Responsible AI section is included in the report for transparency.
 
 ## Technologies Used
 
